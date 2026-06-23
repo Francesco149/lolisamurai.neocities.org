@@ -42,8 +42,8 @@ An HTML picker that opens in Internet Explorer, detects your monitor size and li
 ## The translation, in action
 
 ::: gallery
-assets/gcal-schedule.png | Today's schedule | Hiyori reads the calendar out loud, served entirely from the local fake-Google server. No account, no internet. | Hiyori reading the day's calendar
-assets/gcal-none.png | No plans! | The empty-calendar bubble, fired on the manual right-click calendar check. | Hiyori with an empty calendar
+assets/gcal-schedule.png | Today's schedule | Miki reads the day out loud, served entirely from the local fake-Google server. No account, no internet. | Miki reading the day's schedule
+assets/gcal-none.png | No plans! | The empty-calendar bubble, fired on the manual right-click calendar check. | Kagami with an empty calendar
 assets/minkit-desktop.png | MinkIt copy animations | Instead of XP's standard file-copy animation, MinkIt swaps in a random hand-drawn character. Its Settings and Preview dialogs are Englished too. | MinkIt copy animation and settings
 assets/mail-miki.png | You've got mail | The mail-check bubble over POP3, served by the same local server as a working fake mailbox. | Miki announcing new mail
 assets/calc-imas.png | Themed calculators | The skinned calculator with its baked button labels (Calc / Convert / Tax+ / Tax-) re-drawn in English. | Lucky Star themed calculator
