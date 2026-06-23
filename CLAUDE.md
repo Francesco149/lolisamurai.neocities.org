@@ -102,21 +102,23 @@ previewing or publishing.
 **You never push to Neocities.** Publishing is the user's call and uses their API key. After you
 build, give the user the following and stop:
 
-1. **A Windows-accessible link to the built site**, so they can open it from the Windows side of
-   WSL. Build the path as `\\wsl.localhost\<distro>\<repo-path>\public\index.html`, where `<distro>`
-   is `$WSL_DISTRO_NAME` and `<repo-path>` is `pwd` with `/` turned into `\`. On this box:
+1. **A Windows-accessible `file://` link to the built site**, so they can paste it straight into a
+   browser on the Windows side of WSL. Build it as
+   `file://///wsl.localhost/<distro>/<repo-path>/public/index.html` (forward slashes, and note the
+   `file://///` prefix), where `<distro>` is `$WSL_DISTRO_NAME` and `<repo-path>` is `pwd` verbatim
+   (already forward-slashed, so no conversion). On this box:
 
    ```
-   \\wsl.localhost\NixOS\opt\src\lolisamurai.neocities.org\public\index.html
+   file://///wsl.localhost/NixOS/opt/src/lolisamurai.neocities.org/public/index.html
    ```
 
-   (older Windows builds use `\\wsl$\NixOS\...` instead). Links are relative, so it opens fine over
-   `file://`, no server needed.
+   (older Windows builds use `file://///wsl$/NixOS/...` instead). Links are relative, so the page
+   opens fine over `file://`, no server needed.
 
-2. **The same-form Windows path to every page you changed**, e.g. a touched writeup:
+2. **The same `file://` link for every page you changed**, e.g. the page edited this session:
 
    ```
-   \\wsl.localhost\NixOS\opt\src\lolisamurai.neocities.org\public\luckymas-gcal.html
+   file://///wsl.localhost/NixOS/opt/src/lolisamurai.neocities.org/public/luckymas.html
    ```
 
 3. **A copy-paste publish command** for the user to run once they are happy. It rebuilds, then
