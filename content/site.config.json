@@ -1,0 +1,21 @@
+{
+  "title": "lolisamurai",
+  "domain": ".neocities.org",
+  "kicker": "a small corner of the old internet",
+  "tagline": "weeb since the dial-up days · game & software preservation · occasional gamedev",
+  "projects_subtitle": "things I build to keep old software alive",
+  "writeups_subtitle": "notes from inside the disc",
+  "projects_note": "More preservation projects are in the pipeline. If you want to nudge a specific game or piece of software up the queue, that is what the [Ko-fi](#links) is for.",
+  "about": [
+    "I lived through being a weeb on the early-2000s internet: the dial-up forums, the fansub IRC packs, the doujin discs you traded for, the desktop full of mascots and skinned calculators. A lot of that software was made by tiny circles for a tiny audience on hardware that no longer boots, and most of it is quietly rotting away on dead servers and out-of-print discs.",
+    "So I cherish it, and I try to keep it alive. I reverse-engineer the formats, translate the text, revive the parts that depended on services that have since died, and write down what I learn so the next person does not start from zero. When I am not doing that I dabble in a bit of game dev, and I grind MapleStory on stream.",
+    "The reverse-engineering work here is AI-assisted: I direct it, an agent does the format cracking and binary patching, and I verify every step on a real Windows XP box."
+  ],
+  "links": [
+    { "preset": "normal", "url": "https://github.com/Francesco149", "title": "GitHub · Francesco149", "titleColor": "#2f5aa8", "desc": "All the code, tools and patches." },
+    { "preset": "normal", "url": "https://twitch.tv/lolisamurai", "title": "Twitch · lolisamurai", "titleColor": "#6441a5", "desc": "MapleStory grind, live." },
+    { "preset": "kofi", "url": "https://ko-fi.com/lolisamurai", "title": "Ko-fi · support the preservation work", "titleColor": "#c47f1a", "desc": "Donations go straight to the AI subscriptions that power this intricate game & software preservation work. As a rough yardstick, 240 EUR is about one month of intense work across multiple projects (efficient use of a Claude Max 20x subscription). Software or games mentioned in donations get considered as the next targets." }
+  ],
+  "footer_left": "hosted on neocities · hand-written HTML · est. 2026",
+  "updated": "2026-06-23"
+}

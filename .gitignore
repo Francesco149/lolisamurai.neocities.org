@@ -1,0 +1,18 @@
+# Generated site output - rebuilt by `nix run`, deployed to Neocities, never committed.
+/public/
+
+# Nix build artifacts
+result
+result-*
+.direnv/
+
+# Node (no npm deps today, but just in case)
+/node_modules/
+npm-debug.log*
+*.tsbuildinfo
+
+# Editor / OS cruft
+*.swp
+*~
+.DS_Store
+Thumbs.db
