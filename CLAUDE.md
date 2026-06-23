@@ -138,6 +138,9 @@ build, give the user the following and stop:
 - Build with the flake (`nix run`), never bare `node` (there is no global node on this box).
 - Never publish. Do not run `neocities push` or `nix run .#publish` yourself: build, hand the user
   the preview links and the publish command (see above), and stop.
+- Commit in logical units as you go: each self-contained change (a content edit, a runbook tweak, a
+  build-system change) gets its own commit with a clear message. Do not pile unrelated changes into
+  one commit at the end.
 - Never hand-edit `public/` (it is gitignored and overwritten on every build).
 - Never reintroduce em dashes.
 - Keep all app/source-derived facts accurate to the LuckyMasEN repo; when in doubt, link the repo
