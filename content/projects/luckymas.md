@@ -52,17 +52,17 @@ assets/gcal-calendar.png | The month grid | gcal's full calendar window, reading
 assets/settings.png | Launcher settings | The mascot launcher's config dialog, with every menu, label and tooltip translated in the PE resources. | The launcher settings dialog
 :::
 
-## What's on the disc (now all English)
+## What's on the disc, and how to use it
 
 | What | Detail |
 | --- | --- |
-| Desktop mascots | MinkIt hijacks XP's file-copy progress animation and replaces it with a random hand-drawn character (a cool hack). The characters live in `.mink` containers. |
-| The launcher | A desktop mascot with a right-click menu and speech bubbles. All 22 characters plus ~220 dialogue lines translated. |
-| The talking calendar | Logged into Google Calendar (long dead). A native local fake-Google server revives it with no account and no internet. |
-| Mail check | A "you've got mail" bubble over POP3, served by the same local server as a real, readable fake mailbox. |
-| Themed calculators | Skinned calculators plus a unit-conversion tool (fps/ms, BPM, paper thickness). Script strings and baked-in button labels both translated. |
-| Wallpapers | 84 wallpapers and an HTML picker. Filenames, UI and the baked header art all Englished. |
-| Screensavers | 4 screensavers renamed to their English Display-Properties names. |
+| Desktop mascots | MinkIt hijacks XP's file-copy progress animation and swaps in a hand-drawn character (Konata, Kagami, Chihaya, Makoto, Yayoi) instead of the standard bar (a cool hack). Copy or move files in Explorer to play one; right-click the tray icon, open Options, and pick the character or enable it per file operation. The frames live in `.mink` containers. |
+| The launcher | A desktop mascot (22 characters, ~220 dialogue lines, all translated) with speech bubbles. Click her on the chest to open the app launcher (yes, really; an old anime gag): the left half is the main menu (calculators, calendar, copy-animation, wallpaper, Display Properties), the right half a separate second menu, empty by default for your own shortcuts. Right-click her instead for calendar check, mail check and Settings. Both menus and the mascot are set in `launcher\Launch.ini`. |
+| The talking calendar | Originally logged into Google Calendar (long dead); a native local fake-Google server revives it with no account and no internet. She speaks at startup, or right-click her and pick calendar check to hear the day read aloud; the Google Calendar entry opens the full month grid. Your own events go in `gcal-xp\gcalsrv.lua`, which hot-reloads on save. |
+| Mail check | A "you've got mail" bubble over POP3, served by the same local server as a real, readable mailbox. It fires at startup, or right-click and pick mail check; the bubble opens your mail client (Outlook Express by default). Edit the inbox in the same `gcalsrv.lua`. |
+| Themed calculators | Launch iM@S Calculator or Lucky*Star Calculator from the launcher menu; both are skinned, with script strings and baked-in button labels translated. A doujin unit converter sits alongside them, doing BPM to ms, ms to fps frames, page-count to paper thickness, and tax. |
+| Wallpapers | 84 wallpapers (14 artists by resolution) behind an HTML picker. Launch Wallpaper from the menu, then click a thumbnail to set it. Filenames, UI and the baked header art all Englished. |
+| Screensavers | Four (iM@S 3D, iM@S Comic, Lucky*Star Comic, Chibi Characters), renamed to their English Display-Properties names. Set one from Control Panel, then Display, then Screen Saver, and pick a Lucky*Mas entry. |
 
 ## Build your own English disc {#build}
 
