@@ -52,6 +52,17 @@ assets/gcal-calendar.png | The month grid | gcal's full calendar window, reading
 assets/settings.png | Launcher settings | The mascot launcher's config dialog, with every menu, label and tooltip translated in the PE resources. | The launcher settings dialog
 :::
 
+## The screensavers, brought back
+
+The disc shipped its four screensavers broken: gutted Flash engines with no content, dead on every locale. SYGNAS had already released working versions as an apology back in 2007, so the patch sources that content and merges it back in, with the filenames made ASCII-safe so they run on any locale. These shots are from a real **English** XP. The full story is in [the screensavers writeup](luckymas-screensavers.html).
+
+::: gallery
+assets/screensaver-chibi.png | Chibi Characters | 2D chibi mascots walk across the screen leaving coloured trails. | The Chibi Characters screensaver running fullscreen
+assets/screensaver-imas3d.png | iM@S 3D | A busy 3D scene of iDOLM@STER idols walking and crossing paths over the 765 Production wings. | The iM@S 3D screensaver running fullscreen
+assets/screensaver-imas-comic.png | iM@S 4-koma | A slow cutscene told one manga panel at a time. | The iM@S comic screensaver showing a manga panel
+assets/screensaver-luckystar-comic.png | Lucky*Star 4-koma | The Lucky*Star version of the same slow manga-panel cutscene. | The Lucky Star comic screensaver showing a manga panel
+:::
+
 ## What's on the disc, and how to use it
 
 | What | Detail |
@@ -62,7 +73,7 @@ assets/settings.png | Launcher settings | The mascot launcher's config dialog, w
 | Mail check | A "you've got mail" bubble over POP3, served by the same local server as a real, readable mailbox. It fires at startup, or right-click and pick mail check; the bubble opens your mail client (Outlook Express by default). Edit the inbox in the same `gcalsrv.lua`. |
 | Themed calculators | Launch iM@S Calculator or Lucky*Star Calculator from the launcher menu; both are skinned, with script strings and baked-in button labels translated. A doujin unit converter sits alongside them, doing BPM to ms, ms to fps frames, page-count to paper thickness, and tax. |
 | Wallpapers | 84 wallpapers (14 artists by resolution) behind an HTML picker. Launch Wallpaper from the menu, then click a thumbnail to set it. Filenames, UI and the baked header art all Englished. |
-| Screensavers | Four (iM@S 3D, iM@S Comic, Lucky*Star Comic, Chibi Characters), renamed to their English Display-Properties names. Set one from Control Panel, then Display, then Screen Saver, and pick a Lucky*Mas entry. |
+| Screensavers | Four (iM@S 3D, iM@S Comic, Lucky*Star Comic, Chibi Characters), renamed to their English Display-Properties names. The disc shipped these broken, with no content; the patch restores them from SYGNAS's own 2007 apology release (see the writeup). Set one from Control Panel, then Display, then Screen Saver, and pick a Lucky*Mas entry. |
 
 ## Build your own English disc {#build}
 
