@@ -100,7 +100,7 @@ The freeware build tools are auto-downloaded, version-pinned and SHA-256-verifie
 :::
 
 ::: callout warn "&#9733; Get the original &amp; credit the authors"
-The disc is out of print; this patch applies to **your own copy**, which you can find second-hand on [Suruga-ya](https://www.suruga-ya.jp/product/detail/186014567). Every character, frame and line of original software is &copy; SYGNAS. The creator (SYGNAS / &#12480;&#12480;) is now a professional web developer at [x.com/sygnas](https://x.com/sygnas). This is an unofficial fan project, not affiliated with or endorsed by SYGNAS, made only to keep their work alive on modern machines.
+The disc is out of print; this patch applies to **your own copy**, which you can find second-hand on [Suruga-ya](https://www.suruga-ya.jp/product/detail/186014567). Every character, frame and line of original software is &copy; SYGNAS. The creator is SYGNAS (&#12480;&#12480;), [x.com/sygnas](https://x.com/sygnas). This is an unofficial fan project, not affiliated with or endorsed by SYGNAS, made only to keep their work alive on modern machines.
 
 Support this reverse-engineering &amp; preservation work at [ko-fi.com/lolisamurai](https://ko-fi.com/lolisamurai).
 :::
