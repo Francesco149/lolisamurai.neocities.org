@@ -54,7 +54,7 @@ assets/settings.png | Launcher settings | The mascot launcher's config dialog, w
 
 ## The screensavers, brought back
 
-The disc shipped its four screensavers broken: gutted Flash engines with no content, dead on every locale. SYGNAS had already released working versions as an apology back in 2007, so the patch sources that content and merges it back in, with the filenames made ASCII-safe so they run on any locale. These shots are from a real **English** XP. The full story is in [the screensavers writeup](luckymas-screensavers.html).
+The disc shipped its four screensavers broken: gutted Flash engines with no content, dead on every locale. SYGNAS released working versions as a public apology weeks later, on 2008-01-09, so the patch sources that content and merges it back in, with the filenames made ASCII-safe so they run on any locale. These shots are from a real **English** XP. The full story is in [the screensavers writeup](luckymas-screensavers.html).
 
 ::: gallery
 assets/screensaver-chibi.png | Chibi Characters | 2D chibi mascots walk across the screen leaving coloured trails. | The Chibi Characters screensaver running fullscreen

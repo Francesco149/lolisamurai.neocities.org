@@ -12,7 +12,7 @@ card_desc: Why all four were dead on arrival, and how SYGNAS's 2007 apology rele
 ---
 
 ::: panel
-The disc has four screensavers. None of them ever ran, on any machine, and for a long time the assumption (mine included) was that it was a locale problem. It was not. They were shipped broken, and the person who broke them had already shipped the fix, back in 2007, as an apology.
+The disc has four screensavers. None of them ever ran, on any machine, and for a long time the assumption (mine included) was that it was a locale problem. It was not. They were shipped broken, and the people who broke them shipped the fix a few weeks later, as a public apology.
 :::
 
 ## One binary, four names, no content
@@ -23,9 +23,17 @@ The four `.scr` files are byte-identical (SHA-256 `6b430059...`, 203264 bytes ea
 
 The tidy theory was that a 2007 Japanese screensaver wanted a Japanese system. Decompiling the engine's init and then testing on real hardware killed that theory cleanly: it dies identically across English and Japanese locales, English and Japanese filenames, and even with the clock rolled back to 2007, while a stock Windows screensaver launched the same way runs fine. The engine never gets far enough to care about any of that. It is missing the box of content that is supposed to sit next to it, full stop. This is a SYGNAS packaging defect, not a locale issue and not something our patch caused.
 
-## The fix shipped in 2007, as an apology
+## The fix shipped as an apology, on 2008-01-09
 
-SYGNAS knew. The disc screensavers had errors that made them flat out not work, so they put the working versions up on their site as an apology to buyers: four standalone installers, dated December 2007, each bundling the engine plus an actual Flash movie plus Flash Player 8. That site (sygnas.jp) is long gone, so the originals have to come from outside the disc, but they are SYGNAS's own files and the right way to make the screensavers work. The build pins the four by SHA-256 and downloads them at build time; like every other SYGNAS byte, they are never committed to this project.
+SYGNAS knew, and said so in public. The disc sold at Comiket 73 on the last day of 2007; nine days later, on 2008-01-09, they added a &#12473;&#12463;&#12522;&#12540;&#12531;&#12475;&#12540;&#12496;&#12540;&#28961;&#26009;&#37197;&#24067; ("free screensaver distribution") block to the [&#12425;&#12365;&#9734;&#12510;&#12473; special site](http://web.archive.org/web/20090917224409/http://sygnas.jp/doujin/luckymaster/), at the very address the launcher still carries as its mutex string, `sygnas.jp/doujin/luckymaster/`. The notice reads:
+
+::: small
+&#21454;&#37682;&#12375;&#12390;&#12356;&#12383;&#12473;&#12463;&#12522;&#12540;&#12531;&#12475;&#12540;&#12496;&#12540;&#12364;&#27491;&#24120;&#12395;&#21205;&#20316;&#12375;&#12394;&#12356;&#12371;&#12392;&#12364;&#21028;&#26126;&#12375;&#12414;&#12375;&#12383;&#12290;&#30342;&#27096;&#12395;&#12399;&#12372;&#36855;&#24785;&#12434;&#12362;&#12363;&#12369;&#12375;&#12390;&#26412;&#24403;&#12395;&#30003;&#12375;&#35379;&#12354;&#12426;&#12414;&#12379;&#12435;&#12290;&#12362;&#35435;&#12403;&#12398;&#24847;&#21619;&#12434;&#36796;&#12417;&#12390;&#21454;&#37682;&#12375;&#12390;&#12356;&#12427;&#12473;&#12463;&#12522;&#12540;&#12531;&#12475;&#12540;&#12496;&#12540;&#12434;&#28961;&#26009;&#37197;&#24067;&#12356;&#12383;&#12375;&#12414;&#12377;&#12290;
+
+"It has come to light that the included screensavers do not operate correctly. We sincerely apologize for the inconvenience. As a token of apology, we are distributing the included screensavers free of charge."
+:::
+
+They posted all four as ZIPs, on two mirrors (sygnas.jp itself and a clic-clac.jp backup), each holding one standalone installer that bundles the engine, an actual Flash movie, and Flash Player 8. The site is long gone, but the Internet Archive kept it, and one clic-clac.jp mirror is still archived: the `chibi_setup.exe` pulled from it is byte-for-byte the file this patch pins by SHA-256, so the restored content is provably SYGNAS's own apology release. The four installers are downloaded at build time and, like every other SYGNAS byte, never committed here.
 
 ## The engine looks for its content right beside itself
 
