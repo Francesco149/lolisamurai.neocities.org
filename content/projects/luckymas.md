@@ -16,7 +16,7 @@ buttons: [{"label":"View on GitHub &raquo;","url":"https://github.com/Francesco1
 ---
 
 ::: panel
-**Lucky&#9733;Mas** (SGNS-0009, Comiket 73) is a doujin _Lucky&#9733;Star &times; THE iDOLM@STER_ desktop-accessory pack by the circle **SYGNAS**: an in-house animation engine called **MinkIt** that hijacks XP's file-copy progress animation and swaps in a random hand-drawn character instead (a genuinely cool hack), a calendar mascot that logs into Google Calendar and reads your day out loud, themed calculators, 84 wallpapers and 4 screensavers. The disc is out of print and the circle's site is long gone.
+**Lucky&#9733;Mas** (SGNS-0009, Comiket 73) is a doujin _Lucky&#9733;Star &times; THE iDOLM@STER_ desktop-accessory pack by the circle **SYGNAS**: an in-house animation engine called **MinkIt** that hijacks XP's file-copy progress animation and swaps in a random hand-drawn character instead (a genuinely cool hack), a calendar mascot that logs into Google Calendar and notifies you about mail and events, themed calculators, 84 wallpapers and 4 screensavers. The disc is out of print and the circle's site is long gone.
 
 This project makes all of it English and keeps it running on **real Windows XP**, with the calendar mascot revived by a tiny local fake-Google server so you need **no Google account and no internet**. It ships only a tool and a patch delta that apply to **your own copy** of the disc. No SYGNAS file is ever redistributed.
 :::
@@ -42,7 +42,7 @@ An HTML picker that opens in Internet Explorer, detects your monitor size and li
 ## The translation, in action
 
 ::: gallery
-assets/gcal-schedule.png | Today's schedule | Miki reads the day out loud, served entirely from the local fake-Google server. No account, no internet. | Miki reading the day's schedule
+assets/gcal-schedule.png | Today's schedule | Miki notifies you about calendar events, served entirely from the local fake-Google server. No account, no internet. | Miki reading the day's schedule
 assets/gcal-none.png | No plans! | The empty-calendar bubble, fired on the manual right-click calendar check. | Kagami with an empty calendar
 assets/minkit-desktop.png | MinkIt copy animations | Instead of XP's standard file-copy animation, MinkIt swaps in a random hand-drawn character. Its Settings and Preview dialogs are Englished too. | MinkIt copy animation and settings
 assets/mail-miki.png | You've got mail | The mail-check bubble over POP3, served by the same local server as a working fake mailbox. | Miki announcing new mail

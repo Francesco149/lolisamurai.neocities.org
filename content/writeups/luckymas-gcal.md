@@ -12,7 +12,7 @@ card_desc: A native XP-local fake-Google server that speaks the box's own 2007 T
 ---
 
 ::: panel
-One of the mascots logs into Google Calendar and reads your day out loud. In 2026 that is doubly dead: Google's 2007 ClientLogin and GData feeds are gone, and the client wants a Google account you would have to invent. The goal was to make the bubble fire again with **no account and no internet**, on real Windows XP. The path there was mostly about getting one 19-year-old TLS handshake to complete.
+The mascot logs into Google Calendar and notifies you about mail and events. In 2026 that is doubly dead: Google's 2007 ClientLogin and GData feeds are gone, and the client wants a Google account you would have to invent. The goal was to make the bubble fire again with **no account and no internet**, on real Windows XP. The path there was mostly about getting one 19-year-old TLS handshake to complete.
 :::
 
 ## The protocol correction: ClientLogin is HTTPS
